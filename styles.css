@@ -21,3 +21,14 @@ nav ul {
     justify-content: center;
     gap: 20px;
 }
+
+nav a {
+  color: #D9D2B7;
+  padding: 8px;
+}
+
+nav a:hover,
+nav a.active {
+  background: #C48CB3;
+  border-radius: 10px;
+}
